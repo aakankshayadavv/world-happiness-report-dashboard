@@ -10,7 +10,7 @@ This project transforms 9 years of fragmented, inconsistent global spreadsheets 
 
 ---
 
-## 🛠️ Data Engineering & ETL Pipeline (Power Query)
+## Data Engineering & ETL Pipeline (Power Query)
 The primary challenge of this project was data structural misalignment, as the official datasets change their schema and column names annually. I built a dynamic transformation pipeline using **Power Query** to clean and append the data:
 
 * **Workbook Schema Automation:** Utilized `= Excel.CurrentWorkbook()` to dynamically ingest all annual tables simultaneously without hardcoding static sheets.
@@ -31,6 +31,4 @@ The primary challenge of this project was data structural misalignment, as the o
 * **Microsoft Excel:** Data Modeling, Power Query (M-Code Engine), Pivot Tables, Regression Charts, Interactive Slicers.
 
 ---
-📬 **Let's Connect!**
-* **Developer:** Aakanksha Yadav
-* **Role:** Aspiring Data Analyst & Developer
+
